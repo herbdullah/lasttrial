@@ -4,7 +4,7 @@ function ageInDays() {
     let birthYear = prompt('what year were you born.... Babe?');
     let ageInDayss = (2021- birthYear) * 365;
     let h4 = document.createElement('h4');
-    let textAnswer = document.createTextNode('you are '  + ageInDayss +  ' days old bitch');
+    let textAnswer = document.createTextNode('you are '  + ageInDayss +  ' days old sweetie');
     h4.setAttribute('id', 'ageInDays');
     h4.appendChild(textAnswer);
     document.getElementById('flex-box-result').appendChild(h4);
